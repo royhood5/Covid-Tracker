@@ -1,0 +1,33 @@
+
+
+
+.statusbox{
+    flex: 1;
+    cursor: pointer;
+}
+
+.statusbox:not(:last-child){
+    margin-right: 10px;
+}
+
+.statusbox_cases{
+    color: indianred ;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.statusbox--selected{
+    border-top: 10px solid greenyellow;
+}
+.status--displayed{
+    border-color:  red;
+}
+.statusbox_total{
+    color: #6c757d ;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 15px !important;
+}
