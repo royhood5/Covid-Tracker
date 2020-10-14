@@ -36,6 +36,7 @@ function App() {
       await fetch('https://disease.sh/v3/covid-19/countries')
           .then((response)=>response.json())
           .then((data)=>{
+            
             console.log(data)
             const countries = data.map((country)=>(
                 {
@@ -49,6 +50,7 @@ function App() {
             setTableData(sortedData);
             setMapCountries(data)
           })
+          console.log(countries);
     };
     getCountriesData();
   },[]);

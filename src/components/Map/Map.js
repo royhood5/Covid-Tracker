@@ -9,6 +9,8 @@ function Map({countries,casesType,center,zoom}){
           center={center}
           zoom={zoom}
           >
+
+              {/* Leaflet Standard URL */}
               <TileLayer
               url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
               attribution='&copy;

@@ -30,8 +30,7 @@ export const sortData =(data) =>{
 }
 
 //Formatting The number
-export  const  prettyPrintStat = (stat) =>
-    stat ? `+${numeral(stat).format('0.0a')}`:"+0";
+export  const  prettyPrintStat = (stat) =>  stat ? `+${numeral(stat).format('0.0a')}`:"+0";
 
 
 
